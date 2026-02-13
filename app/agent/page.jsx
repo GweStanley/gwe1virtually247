@@ -71,19 +71,7 @@ function AgentContent() {
           <ChatAgent site={site} />
         </div>
 
-        <div
-          style={{
-            padding: '7px',
-            fontSize: 16,
-            color: '#f9f1f1',
-            fontWeight: 'bold',
-            textAlign: 'center',
-            background: '#5690f6',
-            borderRadius: 8,
-          }}
-        >
-          <footer>Powered by Pathfinder Digital Consensus Labs</footer>
-        </div>
+       
       </div>
 
       <style>{`
