@@ -1,10 +1,11 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import ChatAgent from '../components/ChatAgent';
 import { businesses } from '../lib/businesses';
 
-export default function AgentPage() {
+function AgentContent() {
   const searchParams = useSearchParams();
   const site = searchParams.get('site') ?? 'acme-plumbing';
 
@@ -42,7 +43,7 @@ export default function AgentPage() {
             <div style={{
               overflow: 'hidden',
               borderRadius: 8,
-              background: 'rgba(88, 152, 231, 0.2)', // subtle white tint
+              background: 'rgba(88, 152, 231, 0.2)',
               padding: '4px 0',
               fontSize: 14,
               color: '#f9f1f1',
@@ -63,27 +64,28 @@ export default function AgentPage() {
               </div>
             </div>
           )}
-
         </div>
 
-        {/* Chat Agent fills remaining space and scrolls */}
+        {/* Chat Agent */}
         <div style={{ flex: 1, overflowY: 'auto', padding: 5 }}>
           <ChatAgent site={site} />
         </div>
-        <div
-        style={{
-              padding: '7px',
-              fontSize: 16,
-              color: '#f9f1f1',
-              fontWeight: 'bold',
-              textAlign: 'center',
-             background: '#5690f6',
-              borderRadius: 8,
-            }}><footer>Powered by Pathfinder Digital Consensus Labs</footer></div>
-      </div>
-    
 
-      {/* CSS for smooth scrolling */}
+        <div
+          style={{
+            padding: '7px',
+            fontSize: 16,
+            color: '#f9f1f1',
+            fontWeight: 'bold',
+            textAlign: 'center',
+            background: '#5690f6',
+            borderRadius: 8,
+          }}
+        >
+          <footer>Powered by Pathfinder Digital Consensus Labs</footer>
+        </div>
+      </div>
+
       <style>{`
         @keyframes scroll {
           0% { transform: translateX(0%); }
@@ -91,5 +93,13 @@ export default function AgentPage() {
         }
       `}</style>
     </div>
+  );
+}
+
+export default function AgentPage() {
+  return (
+    <Suspense fallback={<div style={{ padding: 20 }}>Loading...</div>}>
+      <AgentContent />
+    </Suspense>
   );
 }
