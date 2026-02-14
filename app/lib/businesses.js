@@ -236,8 +236,316 @@ export const businesses = {
   ],
   ownerEmail: "gwestanleyayungha@gmail.com"
 },
+//Real Estate//
+"lone-star-realty": {
+  name: "Lone Star Realty Agent",
+  tagline: "Smart Property Solutions Across Texas",
+  location: "Houston, TX",
+  hours: "Mon–Sat · 9am–7pm",
+  themeColor: "#1E3A8A",
+  avatar: "🏠",
 
-  
+  services: [
+    "Home Sales",
+    "Luxury Listings",
+    "Rentals",
+    "Valuations",
+    "Investment Consulting"
+  ],
+
+  faqs: [
+    { id: 1, q: "Which areas do you operate in?", a: "We serve Houston and surrounding metro areas.", keywords: ["areas","zones","coverage"] },
+    { id: 2, q: "What is your commission structure?", a: "Commission ranges between 3%–6% depending on listing agreement.", keywords: ["commission","fees","percentage"] },
+    { id: 3, q: "Do you assist first-time buyers?", a: "Yes, we guide first-time buyers from mortgage pre-approval to closing.", keywords: ["firsttime","buyers","newbie"] },
+    { id: 4, q: "Can I schedule a property tour?", a: "You can book a physical or virtual tour directly here.", keywords: ["tour","viewing","visit"] },
+    { id: 5, q: "Do you provide market analysis?", a: "Yes, we provide detailed comparative market analysis reports.", keywords: ["analysis","market","comparables"] },
+    { id: 6, q: "How long does selling take?", a: "Average closing time ranges 30–60 days depending on demand.", keywords: ["timeline","duration","closing"] },
+    { id: 7, q: "Do you handle negotiations?", a: "Yes, we negotiate offers to maximize your return.", keywords: ["negotiation","offers","bidding"] },
+    { id: 8, q: "Do you assist investors?", a: "We provide ROI projections and rental yield estimates.", keywords: ["investors","roi","yield"] },
+    { id: 9, q: "Are inspections included?", a: "We coordinate inspections with certified inspectors.", keywords: ["inspection","survey","assessment"] },
+    { id: 10, q: "Do you help with financing?", a: "We connect clients with trusted mortgage lenders.", keywords: ["financing","mortgage","loan"] },
+    { id: 11, q: "What documents are required?", a: "You will need ID, proof of funds, and property disclosures.", keywords: ["documents","paperwork","forms"] },
+    { id: 12, q: "Are listings exclusive?", a: "Yes, we offer exclusive listing agreements for sellers.", keywords: ["exclusive","listing","contract"] },
+    { id: 13, q: "Do you offer staging services?", a: "Yes, we provide professional staging consultations.", keywords: ["staging","presentation","decor"] },
+    { id: 14, q: "Can I cancel a listing?", a: "Listing cancellation terms depend on your signed agreement.", keywords: ["cancel","terminate","withdraw"] },
+    { id: 15, q: "Do you manage rentals?", a: "Yes, we offer tenant placement and property management.", keywords: ["management","tenants","leasing"] },
+    { id: 16, q: "Are background checks done on tenants?", a: "Yes, we conduct screening and credit checks.", keywords: ["screening","credit","background"] },
+    { id: 17, q: "Do you provide appraisals?", a: "We coordinate certified appraisal services.", keywords: ["appraisal","valuation","estimate"] },
+    { id: 18, q: "Is there legal support?", a: "We collaborate with licensed real estate attorneys.", keywords: ["legal","attorney","compliance"] },
+    { id: 19, q: "Do you handle relocations?", a: "Yes, we support interstate and corporate relocations.", keywords: ["relocation","transfer","corporate"] },
+    { id: 20, q: "How do I get started?", a: "Simply share your goals and we’ll guide you step-by-step.", keywords: ["start","begin","process"] }
+  ],
+
+  ownerEmail: "demo@lonestarrealty.com",
+},
+//Dental clinic//
+"texas-smile-clinic": {
+  name: "Texas Smile Dental",
+  tagline: "Advanced Dental Care with Comfort",
+  location: "Dallas, TX",
+  hours: "Mon–Fri · 8am–5pm",
+  themeColor: "#0EA5E9",
+  avatar: "🦷",
+
+  services: [
+    "Cleanings",
+    "Whitening",
+    "Implants",
+    "Orthodontics",
+    "Emergency Care"
+  ],
+
+  faqs: [
+    { id: 1, q: "Do you accept insurance plans?", a: "We accept most major PPO insurance providers and assist with claims processing.", keywords: ["insurance","coverage","provider"] },
+    { id: 2, q: "How do I book an appointment?", a: "You can schedule directly through this assistant or request a callback.", keywords: ["appointment","schedule","booking"] },
+    { id: 3, q: "Do you handle emergencies?", a: "Yes, we prioritize urgent dental emergencies during office hours.", keywords: ["emergency","urgent","pain"] },
+    { id: 4, q: "What are consultation fees?", a: "Initial consultations start at $75 depending on evaluation complexity.", keywords: ["consultation","fees","pricing"] },
+    { id: 5, q: "Do you treat children?", a: "Yes, we provide pediatric dentistry services.", keywords: ["children","pediatric","kids"] },
+    { id: 6, q: "Is sedation available?", a: "We offer sedation options for anxious patients.", keywords: ["sedation","anxiety","comfort"] },
+    { id: 7, q: "How long does whitening last?", a: "Professional whitening results typically last 1–2 years with proper care.", keywords: ["whitening","results","duration"] },
+    { id: 8, q: "Are implants permanent?", a: "Dental implants are long-term restorative solutions when maintained properly.", keywords: ["implants","permanent","restoration"] },
+    { id: 9, q: "Do you offer payment plans?", a: "Yes, flexible financing options are available.", keywords: ["financing","installments","plans"] },
+    { id: 10, q: "What safety standards do you follow?", a: "We follow strict sterilization and infection-control protocols.", keywords: ["sterilization","hygiene","protocols"] },
+    { id: 11, q: "How often should I visit?", a: "We recommend biannual checkups for preventive care.", keywords: ["checkup","frequency","visits"] },
+    { id: 12, q: "Do you provide X-rays?", a: "Yes, digital radiography is available onsite.", keywords: ["xrays","radiography","imaging"] },
+    { id: 13, q: "What happens during cleaning?", a: "Cleaning includes plaque removal, polishing, and oral examination.", keywords: ["cleaning","plaque","polishing"] },
+    { id: 14, q: "Are braces available?", a: "We offer both traditional braces and clear aligners.", keywords: ["braces","aligners","orthodontics"] },
+    { id: 15, q: "Do you handle root canals?", a: "Yes, we perform root canal therapy with modern equipment.", keywords: ["rootcanal","endodontics","treatment"] },
+    { id: 16, q: "What materials are used for fillings?", a: "We use composite and porcelain restorative materials.", keywords: ["fillings","composite","porcelain"] },
+    { id: 17, q: "Can I reschedule?", a: "Appointments can be rescheduled 24 hours in advance.", keywords: ["reschedule","change","modify"] },
+    { id: 18, q: "Is cosmetic dentistry offered?", a: "Yes, we provide veneers and smile makeovers.", keywords: ["cosmetic","veneers","makeover"] },
+    { id: 19, q: "Are procedures painful?", a: "We prioritize gentle techniques and pain management.", keywords: ["discomfort","sensitivity","numbing"] },
+    { id: 20, q: "How do I contact support?", a: "You can message us here for assistance anytime.", keywords: ["contact","support","help"] },
+    { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] }
+
+  ],
+
+  ownerEmail: "demo@texassmile.com",
+},
+//Travel Agency//
+"global-travel-texas": {
+  name: "Global Travel Texas",
+  tagline: "Your Gateway to Worldwide Adventures",
+  location: "Austin, TX",
+  hours: "Mon–Sat · 9am–6pm",
+  themeColor: "#F59E0B",
+  avatar: "✈️",
+
+  services: [
+    "Flights",
+    "Hotels",
+    "Packages",
+    "Visas",
+    "Insurance"
+  ],
+
+  faqs: [
+    { id: 1, q: "Do you offer international flights?", a: "Yes, we book both domestic and international airfare.", keywords: ["flights","airfare","international"] },
+    { id: 2, q: "Can I customize a package?", a: "Yes, we tailor itineraries to your preferences.", keywords: ["customize","itinerary","personalized"] },
+    { id: 3, q: "Do you assist with visas?", a: "We guide clients through visa documentation requirements.", keywords: ["visa","documentation","embassy"] },
+    { id: 4, q: "Is travel insurance mandatory?", a: "Some destinations require insurance; we provide coverage options.", keywords: ["insurance","coverage","policy"] },
+    { id: 5, q: "How do cancellations work?", a: "Cancellation policies depend on airline or hotel terms.", keywords: ["cancellation","refund","penalty"] },
+    { id: 6, q: "Can I reserve hotels only?", a: "Yes, standalone hotel bookings are available.", keywords: ["hotels","accommodation","rooms"] },
+    { id: 7, q: "Do you arrange cruises?", a: "Yes, we offer international cruise packages.", keywords: ["cruise","voyage","ship"] },
+    { id: 8, q: "What documents are required?", a: "Passport validity and entry permits are required.", keywords: ["passport","documents","entry"] },
+    { id: 9, q: "Do you provide group discounts?", a: "Yes, discounted pricing applies to group travel.", keywords: ["group","discounts","bulk"] },
+    { id: 10, q: "How far in advance should I book?", a: "We recommend booking 6–8 weeks prior to departure.", keywords: ["advance","booking","planning"] },
+    { id: 11, q: "Are installment payments allowed?", a: "Installment plans are available for selected packages.", keywords: ["installments","payments","plans"] },
+    { id: 12, q: "Do you assist with baggage policies?", a: "We clarify airline baggage allowances before departure.", keywords: ["baggage","luggage","allowance"] },
+    { id: 13, q: "Can I modify my itinerary?", a: "Modifications depend on supplier rules.", keywords: ["modify","changes","adjustments"] },
+    { id: 14, q: "Do you provide travel alerts?", a: "Yes, we inform clients of advisories and updates.", keywords: ["alerts","advisory","updates"] },
+    { id: 15, q: "Are refunds guaranteed?", a: "Refund eligibility depends on fare conditions.", keywords: ["refunds","guarantee","eligibility"] },
+    { id: 16, q: "Do you handle corporate travel?", a: "Yes, we manage corporate travel logistics.", keywords: ["corporate","business","enterprise"] },
+    { id: 17, q: "Are tour guides included?", a: "Selected packages include professional guides.", keywords: ["guides","tour","escorted"] },
+    { id: 18, q: "What destinations are popular?", a: "Europe, Asia, and Caribbean packages are highly requested.", keywords: ["destinations","popular","trending"] },
+    { id: 19, q: "Do you offer honeymoon packages?", a: "Yes, romantic getaway packages are available.", keywords: ["honeymoon","romantic","couples"] },
+    { id: 20, q: "How do I start planning?", a: "Share your travel dates and preferences to begin.", keywords: ["start","planning","begin"] },
+    { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] }
+
+  ],
+
+  ownerEmail: "demo@globaltraveltexas.com",
+},
+
+//Law firm//
+
+"texas-immigration-law": {
+  name: "Texas Immigration Law",
+  tagline: "Trusted Legal Pathways to the U.S.",
+  location: "Dallas, TX",
+  hours: "Mon–Fri · 9am–6pm",
+  themeColor: "#065F46",
+  avatar: "⚖️",
+
+  services: [
+    "Green Cards",
+    "Work Visas",
+    "Citizenship",
+    "Asylum",
+    "Appeals"
+  ],
+
+  faqs: [
+    { id: 1, q: "Do you handle family petitions?", a: "Yes, we assist with family-based immigration filings.", keywords: ["family","petition","sponsorship"] },
+    { id: 2, q: "What types of work visas are supported?", a: "We process H1B, L1, O1 and employment categories.", keywords: ["work","employment","h1b"] },
+    { id: 3, q: "How long does processing take?", a: "Timelines vary depending on USCIS workload.", keywords: ["processing","timeline","wait"] },
+    { id: 4, q: "Are consultations confidential?", a: "All discussions are protected by attorney-client privilege.", keywords: ["confidential","privacy","privilege"] },
+    { id: 5, q: "What are legal fees?", a: "Fees depend on case complexity and filing category.", keywords: ["fees","retainer","costs"] },
+    { id: 6, q: "Do you represent clients in court?", a: "Yes, we provide representation in immigration court.", keywords: ["court","representation","hearing"] },
+    { id: 7, q: "Can denied cases be appealed?", a: "Yes, appeals may be filed when applicable.", keywords: ["appeal","denial","reconsideration"] },
+    { id: 8, q: "Do you offer document review?", a: "We carefully review and prepare immigration documents.", keywords: ["review","documents","forms"] },
+    { id: 9, q: "Is deportation defense available?", a: "Yes, we defend removal proceedings.", keywords: ["deportation","removal","defense"] },
+    { id: 10, q: "Do you assist students?", a: "We advise on F1 and student-related matters.", keywords: ["student","f1","education"] },
+    { id: 11, q: "Are consultations virtual?", a: "Virtual consultations are available worldwide.", keywords: ["virtual","online","remote"] },
+    { id: 12, q: "What evidence is required?", a: "Supporting documentation depends on petition type.", keywords: ["evidence","proof","supporting"] },
+    { id: 13, q: "Do you handle asylum cases?", a: "Yes, we manage asylum applications and interviews.", keywords: ["asylum","refugee","protection"] },
+    { id: 14, q: "Can status be adjusted?", a: "We assist with adjustment of status filings.", keywords: ["adjustment","status","residency"] },
+    { id: 15, q: "Is expedited processing possible?", a: "Premium processing may be available for select petitions.", keywords: ["expedite","premium","fasttrack"] },
+    { id: 16, q: "Are consultations paid?", a: "Initial consultations may require a booking fee.", keywords: ["consultation","booking","charge"] },
+    { id: 17, q: "Do you provide translations?", a: "We assist with certified document translations.", keywords: ["translation","certified","language"] },
+    { id: 18, q: "How are updates communicated?", a: "Clients receive email case updates.", keywords: ["updates","notifications","tracking"] },
+    { id: 19, q: "Do you handle business immigration?", a: "Yes, we support corporate immigration filings.", keywords: ["business","corporate","company"] },
+    { id: 20, q: "How do I begin my case?", a: "Share your immigration goals to start evaluation.", keywords: ["begin","evaluation","intake"] },
+     { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] }
+
+  ],
+
+  ownerEmail: "demo@tximmigrationlaw.com",
+},
+
+//fitness Gym//
+"elite-fitness-houston": {
+  name: "Elite Fitness Studio",
+  tagline: "Stronger Every Day",
+  location: "Houston, TX",
+  hours: "Mon–Sat · 6am–9pm",
+  themeColor: "#DC2626",
+  avatar: "💪",
+
+  services: [
+    "Personal Training",
+    "Group Classes",
+    "Weight Loss Programs",
+    "Nutrition Coaching",
+    "Body Assessments"
+  ],
+
+  faqs: [
+    { id: 1, q: "Do you offer trial sessions?", a: "Yes, first-time visitors can book a trial workout.", keywords: ["trial","intro","demo"] },
+    { id: 2, q: "What memberships are available?", a: "We offer monthly, quarterly, and annual memberships.", keywords: ["membership","plans","subscription"] },
+    { id: 3, q: "Are trainers certified?", a: "All trainers hold nationally recognized certifications.", keywords: ["certified","credentials","qualified"] },
+    { id: 4, q: "Is there a cancellation policy?", a: "Membership cancellations require 30-day notice.", keywords: ["cancellation","terminate","notice"] },
+    { id: 5, q: "Do you provide diet plans?", a: "Yes, customized nutrition programs are available.", keywords: ["diet","nutrition","mealplan"] },
+    { id: 6, q: "Are group classes included?", a: "Group sessions are included in premium packages.", keywords: ["group","classes","sessions"] },
+    { id: 7, q: "What equipment is available?", a: "We provide modern strength and cardio equipment.", keywords: ["equipment","machines","weights"] },
+    { id: 8, q: "Do you track progress?", a: "Yes, we conduct periodic fitness assessments.", keywords: ["progress","tracking","assessment"] },
+    { id: 9, q: "Is personal training one-on-one?", a: "Yes, private sessions are fully personalized.", keywords: ["personal","private","oneonone"] },
+    { id: 10, q: "Are there locker facilities?", a: "Secure locker and shower facilities are available.", keywords: ["locker","showers","facilities"] },
+    { id: 11, q: "Do you offer strength training?", a: "Yes, structured strength programs are provided.", keywords: ["strength","lifting","resistance"] },
+    { id: 12, q: "Is cardio training available?", a: "We provide guided cardio routines.", keywords: ["cardio","endurance","aerobic"] },
+    { id: 13, q: "Are refunds possible?", a: "Refund eligibility depends on membership terms.", keywords: ["refund","eligibility","policy"] },
+    { id: 14, q: "Is there an age restriction?", a: "Members must be 16+ with guardian consent if under 18.", keywords: ["age","restriction","minimum"] },
+    { id: 15, q: "Do you offer online coaching?", a: "Virtual coaching programs are available.", keywords: ["online","virtual","remote"] },
+    { id: 16, q: "Are classes overcrowded?", a: "We limit class sizes for quality coaching.", keywords: ["capacity","limit","crowded"] },
+    { id: 17, q: "What safety measures exist?", a: "We enforce strict safety and hygiene standards.", keywords: ["safety","standards","hygiene"] },
+    { id: 18, q: "Do you provide injury support?", a: "We modify workouts for rehabilitation needs.", keywords: ["injury","rehab","recovery"] },
+    { id: 19, q: "Are supplements sold?", a: "Yes, approved fitness supplements are available.", keywords: ["supplements","protein","vitamins"] },
+    { id: 20, q: "How do I enroll?", a: "Share your fitness goals to begin enrollment.", keywords: ["enroll","signup","join"] },
+        { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] }
+
+  ],
+
+  ownerEmail: "demo@elitefitnesshouston.com",
+},
+
+//Restaurant//
+"texas-grill-house": {
+  name: "Texas Grill House ",
+  tagline: "Authentic Flavors, Fresh Ingredients",
+  location: "Austin, TX",
+  hours: "Daily · 11am–10pm",
+  themeColor: "#7C2D12",
+  avatar: "🍽️",
+
+  services: [
+    "Dine-In",
+    "Takeout",
+    "Catering",
+    "Private Events",
+    "Online Orders"
+  ],
+
+  faqs: [
+    { id: 1, q: "Do you accept reservations?", a: "Yes, table reservations can be made through this assistant.", keywords: ["reservations","booking","table"] },
+    { id: 2, q: "Is delivery available?", a: "Delivery is available via partner platforms.", keywords: ["delivery","courier","shipping"] },
+    { id: 3, q: "Do you offer catering?", a: "Yes, catering packages are available for events.", keywords: ["catering","events","functions"] },
+    { id: 4, q: "Are vegetarian options available?", a: "Yes, vegetarian and plant-based meals are offered.", keywords: ["vegetarian","vegan","plantbased"] },
+    { id: 5, q: "Do you handle allergies?", a: "We accommodate allergy requests when informed in advance.", keywords: ["allergy","dietary","intolerance"] },
+    { id: 6, q: "What are your signature dishes?", a: "Our smoked brisket and ribeye are customer favorites.", keywords: ["signature","specialty","popular"] },
+    { id: 7, q: "Is there outdoor seating?", a: "Yes, patio seating is available.", keywords: ["outdoor","patio","seating"] },
+    { id: 8, q: "Do you host private parties?", a: "Private dining rooms are available upon request.", keywords: ["private","party","banquet"] },
+    { id: 9, q: "What payment methods are accepted?", a: "We accept cards, cash, and digital wallets.", keywords: ["payment","cards","cash"] },
+    { id: 10, q: "Are refunds provided?", a: "Refunds are assessed case-by-case.", keywords: ["refund","complaint","issue"] },
+    { id: 11, q: "Do you offer discounts?", a: "Seasonal promotions are announced regularly.", keywords: ["discount","promotion","offer"] },
+    { id: 12, q: "Is parking available?", a: "Free parking is available onsite.", keywords: ["parking","garage","lot"] },
+    { id: 13, q: "Are pets allowed?", a: "Pets are allowed in outdoor seating areas.", keywords: ["pets","animals","dogs"] },
+    { id: 14, q: "Do you provide kids menus?", a: "Yes, special children’s menus are available.", keywords: ["kids","children","menu"] },
+    { id: 15, q: "Is WiFi available?", a: "Complimentary WiFi is provided.", keywords: ["wifi","internet","connection"] },
+    { id: 16, q: "What are peak hours?", a: "Evenings and weekends are typically busiest.", keywords: ["peak","busy","crowd"] },
+    { id: 17, q: "Do you sell gift cards?", a: "Yes, digital and physical gift cards are available.", keywords: ["giftcards","voucher","coupon"] },
+    { id: 18, q: "Are ingredients locally sourced?", a: "We prioritize fresh local suppliers.", keywords: ["ingredients","local","suppliers"] },
+    { id: 19, q: "Is live music hosted?", a: "Live music events are scheduled monthly.", keywords: ["livemusic","entertainment","band"] },
+    { id: 20, q: "How do I place an order?", a: "You can order directly through this assistant.", keywords: ["order","purchase","checkout"] },
+        { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your order.", keywords: ["Price","Fee","cost"] }
+
+  ],
+
+  ownerEmail: "demo@texasgrillhouse.com",
+},
+
+// cleaning agency//
+"sparkle-clean-texas": {
+  name: "Sparkle Clean Texas",
+  tagline: "Professional Cleaning You Can Trust",
+  location: "San Antonio, TX",
+  hours: "Mon–Sat · 8am–6pm",
+  themeColor: "#059669",
+  avatar: "🧼",
+
+  services: [
+    "Residential Cleaning",
+    "Commercial Cleaning",
+    "Deep Cleaning",
+    "Move-Out Cleaning",
+    "Office Maintenance"
+  ],
+
+  faqs: [
+    { id: 1, q: "Do you provide free estimates?", a: "Yes, we offer no-obligation estimates.", keywords: ["estimate","quote","pricing"] },
+    { id: 2, q: "Are cleaners insured?", a: "All staff are insured and bonded.", keywords: ["insured","bonded","coverage"] },
+    { id: 3, q: "Do you bring supplies?", a: "Yes, we bring professional-grade equipment.", keywords: ["supplies","equipment","materials"] },
+    { id: 4, q: "How long does cleaning take?", a: "Duration depends on property size.", keywords: ["duration","timeframe","hours"] },
+    { id: 5, q: "Do you offer deep cleaning?", a: "Yes, intensive deep cleaning packages are available.", keywords: ["deepclean","intensive","detailed"] },
+    { id: 6, q: "Are eco products used?", a: "Eco-friendly cleaning solutions are available.", keywords: ["eco","green","organic"] },
+    { id: 7, q: "Can I reschedule service?", a: "Rescheduling requires 24-hour notice.", keywords: ["reschedule","change","adjust"] },
+    { id: 8, q: "Do you clean offices?", a: "Yes, commercial contracts are available.", keywords: ["office","commercial","workspace"] },
+    { id: 9, q: "Are background checks done?", a: "All employees undergo screening.", keywords: ["background","screening","verification"] },
+    { id: 10, q: "Do you offer recurring plans?", a: "Weekly and monthly maintenance plans are available.", keywords: ["recurring","weekly","monthly"] },
+    { id: 11, q: "Is satisfaction guaranteed?", a: "We offer a satisfaction guarantee policy.", keywords: ["guarantee","satisfaction","assurance"] },
+    { id: 12, q: "Do you clean carpets?", a: "Carpet shampoo services are available.", keywords: ["carpet","shampoo","upholstery"] },
+    { id: 13, q: "Are windows included?", a: "Interior window cleaning is included upon request.", keywords: ["windows","glass","panes"] },
+    { id: 14, q: "What areas are served?", a: "We serve San Antonio and nearby suburbs.", keywords: ["areas","zones","coverage"] },
+    { id: 15, q: "Do you handle move-outs?", a: "Yes, move-in and move-out packages are offered.", keywords: ["moveout","movein","relocation"] },
+    { id: 16, q: "Is payment upfront?", a: "Payment is due after service completion.", keywords: ["payment","invoice","billing"] },
+    { id: 17, q: "Are pets safe?", a: "We use pet-safe cleaning solutions.", keywords: ["pets","animals","safe"] },
+    { id: 18, q: "Do you disinfect?", a: "Yes, disinfecting services meet health standards.", keywords: ["disinfect","sanitize","germs"] },
+    { id: 19, q: "Can I customize tasks?", a: "Custom checklists are available.", keywords: ["custom","checklist","tasks"] },
+    { id: 20, q: "How do I book?", a: "You can request cleaning directly here.", keywords: ["book","request","schedule"] }
+  ],
+
+  ownerEmail: "demo@sparklecleantx.com",
+},
+
 
   default: {
     name: "Default Business",

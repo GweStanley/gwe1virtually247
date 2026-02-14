@@ -135,7 +135,7 @@ export default function ChatAgent({ site }) {
     setTimeout(() => {
       setMessages(m => {
         const msgs = [...m];
-        msgs[msgs.length - 1].content = "I'm here to help! You can ask about services, prices, or book a service. Please be elaborate or check our FAQ above.";
+        msgs[msgs.length - 1].content = "I'm here to help! You can ask about services, prices, or book a service. Please be elaborate or check our FAQ above ☝️.";
         return msgs;
       });
       setLoading(false);
