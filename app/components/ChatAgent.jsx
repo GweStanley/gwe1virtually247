@@ -60,7 +60,7 @@ export default function ChatAgent({ site }) {
 
     if (fromFaqButton) {
       const faq = business.faqs.find(f => f.q.toLowerCase() === text);
-      if (faq) return { type: "faq", answer: faq.a, faqId: faq.id };
+      if (faq) return { type: "faq", answer: faq, faqId: faq.id };
       return { type: "general" };
     }
 
@@ -68,11 +68,11 @@ export default function ChatAgent({ site }) {
     if (bookingWords.some(word => text.includes(word))) return { type: "booking" };
 
     const exactMatch = business.faqs.find(f => f.q.toLowerCase() === text);
-    if (exactMatch) return { type: "faq", answer: exactMatch.a, faqId: exactMatch.id };
+    if (exactMatch) return { type: "faq", answer: exactMatch, faqId: exactMatch.id };
 
     for (const faq of business.faqs) {
       if (faq.keywords?.some(k => text.includes(k.toLowerCase()))) {
-        return { type: "faq", answer: faq.a, faqId: faq.id };
+        return { type: "faq", answer: faq, faqId: faq.id };
       }
     }
 
@@ -117,7 +117,18 @@ export default function ChatAgent({ site }) {
 
     if (detection.type === "faq") {
       setTimeout(() => {
-        setMessages(m => [...m, { role: "assistant", content: detection.answer }]);
+        // Render FAQ content with links if they exist
+        const faqAnswer = (
+          <div>
+            <p>{detection.answer.a}</p>
+            {detection.answer.links?.map((link, idx) => (
+              <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" style={{ color: "#1E90FF", textDecoration: "underline", display: "block", marginTop: 4 }}>
+                {link.label}
+              </a>
+            ))}
+          </div>
+        );
+        setMessages(m => [...m, { role: "assistant", content: faqAnswer }]);
         setLoading(false);
       }, 400);
       return;
@@ -209,7 +220,7 @@ export default function ChatAgent({ site }) {
               background: m.role === "user" ? "#DCF8C6" : "#fff",
             }}
           >
-            {m.content}
+            {typeof m.content === "string" ? m.content : m.content}
           </div>
         ))}
         {loading && <div style={{ ...styles.message, fontStyle: "italic", color: "#555" }}>Agent is typing...</div>}
@@ -263,6 +274,7 @@ export default function ChatAgent({ site }) {
             </div>
           </div>
         </div>
+        
       )}
     </div>
   );

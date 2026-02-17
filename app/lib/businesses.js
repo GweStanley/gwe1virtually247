@@ -216,26 +216,45 @@ export const businesses = {
       keywords: ["payment", "how to pay", "pay"]
     },
     {
-      id: 9,
-      q: "How can I contact you for questions?",
-      a: "Booking a service will auto-contact our team. You can also message us directly on WhatsApp: +237690533474 or email pathfinderlabs1@gmail.com.",      keywords: ["contact", "email", "call", "reach"]
+  id: 9,
+  q: "How can I contact you for questions?",
+  a: "Using the 'Book Now' above ☝️ will auto reach us. You can also message us directly on WhatsApp: or Email.",
+  links: [
+    {
+      label: "WhatsApp",
+      url: "https://wa.me/237690533474"
     },
+    {
+      label: "Email",
+      url: "mailto:pathfinderlabs1@gmail.com"
+    }
+  ],
+  keywords: ["contact", "email", "call", "reach"]
+},
+
     {
       id: 10,
       q: "Do you offer project consultation?",
       a: "Yes, we offer consultations to understand your project goals and recommend solutions.",
       keywords: ["consultation", "advice", "project guidance", "consult"]
     },
-      {
-      id: 11,
-      q: "where are you Located?",
-      a: "We are an LLC in Houston Texas but we mostly operate remotely with over 50 highly qualified agents worldwide",
-      keywords: ["office", "time zone", "operation zone", "location", 'head quarters']
+{
+  id: 11,
+  q: "Where are you located?",
+  a: "We are an LLC in Houston, Texas but we mostly operate remotely with over 50 highly qualified agents worldwide. You can get directions to our office using the link below.",
+  keywords: ["office", "located", "operation", "location", "headquarters"],
+  links: [
+    {
+      label: "Get Directions",
+      url: "https://www.google.com/maps/dir/?api=1&destination=Houston+TX+77002"
     }
+  ]
+}
 
   ],
   ownerEmail: "gwestanleyayungha@gmail.com"
 },
+
 //Real Estate//
 "lone-star-realty": {
   name: "Lone Star Realty Agent",
@@ -273,7 +292,37 @@ export const businesses = {
     { id: 17, q: "Do you provide appraisals?", a: "We coordinate certified appraisal services.", keywords: ["appraisal","valuation","estimate"] },
     { id: 18, q: "Is there legal support?", a: "We collaborate with licensed real estate attorneys.", keywords: ["legal","attorney","compliance"] },
     { id: 19, q: "Do you handle relocations?", a: "Yes, we support interstate and corporate relocations.", keywords: ["relocation","transfer","corporate"] },
-    { id: 20, q: "How do I get started?", a: "Simply share your goals and we’ll guide you step-by-step.", keywords: ["start","begin","process"] }
+    { id: 20, q: "How do I get started?", a: "Simply share your goals and we’ll guide you step-by-step.", keywords: ["start","begin","process"] },
+    { id: 21, q: "How much do you charge?", a: "We are a certifies real estate agency and we work on commissions basis.", keywords: ["Price","Fee","cost"] },
+{  id: 22,
+  q: "How can I contact you?",
+  a: "Using the 'Book Now' above ☝️ will auto reach us. You can also message us directly on WhatsApp: or Email.",
+  links: [
+    {
+      label: "WhatsApp",
+      url: "https://wa.me/237690533474"
+    },
+    {
+      label: "Email",
+      url: "mailto:pathfinderlabs1@gmail.com"
+    }
+  ],
+  keywords: ["contact", "email", "call", "reach"]
+},
+
+{
+  id: 23,
+  q: "Where are you located?",
+  a: "We are an LLC in Houston, Texas but we mostly operate remotely with over 50 highly qualified agents worldwide. You can get directions to our office using the link below.",
+  keywords: ["office", "located", "operation", "location", "headquarters"],
+  links: [
+    {
+      label: "Get Directions",
+      url: "https://www.google.com/maps/dir/?api=1&destination=Houston+TX+77002"
+    }
+  ]
+}
+
   ],
 
   ownerEmail: "demo@lonestarrealty.com",
@@ -316,8 +365,35 @@ export const businesses = {
     { id: 18, q: "Is cosmetic dentistry offered?", a: "Yes, we provide veneers and smile makeovers.", keywords: ["cosmetic","veneers","makeover"] },
     { id: 19, q: "Are procedures painful?", a: "We prioritize gentle techniques and pain management.", keywords: ["discomfort","sensitivity","numbing"] },
     { id: 20, q: "How do I contact support?", a: "You can message us here for assistance anytime.", keywords: ["contact","support","help"] },
-    { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] }
+    { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] },
+{  id: 22,
+  q: "How can I contact you?",
+  a: "Using the 'Book Now' above ☝️ will auto reach us. You can also message us directly on WhatsApp: or Email.",
+  links: [
+    {
+      label: "WhatsApp",
+      url: "https://wa.me/237690533474"
+    },
+    {
+      label: "Email",
+      url: "mailto:pathfinderlabs1@gmail.com"
+    }
+  ],
+  keywords: ["contact", "email", "call", "reach"]
+},
 
+{
+  id: 23,
+  q: "Where are you located?",
+  a: "We are an LLC in Houston, Texas but we mostly operate remotely with over 50 highly qualified agents worldwide. You can get directions to our office using the link below.",
+  keywords: ["office", "located", "operation", "location", "headquarters"],
+  links: [
+    {
+      label: "Get Directions",
+      url: "https://www.google.com/maps/dir/?api=1&destination=Houston+TX+77002"
+    }
+  ]
+}
   ],
 
   ownerEmail: "demo@texassmile.com",
@@ -360,7 +436,35 @@ export const businesses = {
     { id: 18, q: "What destinations are popular?", a: "Europe, Asia, and Caribbean packages are highly requested.", keywords: ["destinations","popular","trending"] },
     { id: 19, q: "Do you offer honeymoon packages?", a: "Yes, romantic getaway packages are available.", keywords: ["honeymoon","romantic","couples"] },
     { id: 20, q: "How do I start planning?", a: "Share your travel dates and preferences to begin.", keywords: ["start","planning","begin"] },
-    { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] }
+{ id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] },
+{  id: 22,
+  q: "How can I contact you?",
+  a: "Using the 'Book Now' above ☝️ will auto reach us. You can also message us directly on WhatsApp: or Email.",
+  links: [
+    {
+      label: "WhatsApp",
+      url: "https://wa.me/237690533474"
+    },
+    {
+      label: "Email",
+      url: "mailto:pathfinderlabs1@gmail.com"
+    }
+  ],
+  keywords: ["contact", "email", "call", "reach"]
+},
+
+{
+  id: 23,
+  q: "Where are you located?",
+  a: "We are an LLC in Houston, Texas but we mostly operate remotely with over 50 highly qualified agents worldwide. You can get directions to our office using the link below.",
+  keywords: ["office", "located", "operation", "location", "headquarters"],
+  links: [
+    {
+      label: "Get Directions",
+      url: "https://www.google.com/maps/dir/?api=1&destination=Houston+TX+77002"
+    }
+  ]
+}
 
   ],
 
@@ -406,8 +510,35 @@ export const businesses = {
     { id: 18, q: "How are updates communicated?", a: "Clients receive email case updates.", keywords: ["updates","notifications","tracking"] },
     { id: 19, q: "Do you handle business immigration?", a: "Yes, we support corporate immigration filings.", keywords: ["business","corporate","company"] },
     { id: 20, q: "How do I begin my case?", a: "Share your immigration goals to start evaluation.", keywords: ["begin","evaluation","intake"] },
-     { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] }
+     { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] },
+    {  id: 22,
+  q: "How can I contact you?",
+  a: "Using the 'Book Now' above ☝️ will auto reach us. You can also message us directly on WhatsApp: or Email.",
+  links: [
+    {
+      label: "WhatsApp",
+      url: "https://wa.me/237690533474"
+    },
+    {
+      label: "Email",
+      url: "mailto:pathfinderlabs1@gmail.com"
+    }
+  ],
+  keywords: ["contact", "email", "call", "reach"]
+},
 
+{
+  id: 23,
+  q: "Where are you located?",
+  a: "We are an LLC in Houston, Texas but we mostly operate remotely with over 50 highly qualified agents worldwide. You can get directions to our office using the link below.",
+  keywords: ["office", "located", "operation", "location", "headquarters"],
+  links: [
+    {
+      label: "Get Directions",
+      url: "https://www.google.com/maps/dir/?api=1&destination=Houston+TX+77002"
+    }
+  ]
+}
   ],
 
   ownerEmail: "demo@tximmigrationlaw.com",
@@ -451,8 +582,35 @@ export const businesses = {
     { id: 18, q: "Do you provide injury support?", a: "We modify workouts for rehabilitation needs.", keywords: ["injury","rehab","recovery"] },
     { id: 19, q: "Are supplements sold?", a: "Yes, approved fitness supplements are available.", keywords: ["supplements","protein","vitamins"] },
     { id: 20, q: "How do I enroll?", a: "Share your fitness goals to begin enrollment.", keywords: ["enroll","signup","join"] },
-        { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] }
+    { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your situation.", keywords: ["Price","Fee","cost"] },
+    {  id: 22,
+  q: "How can I contact you?",
+  a: "Using the 'Book Now' above ☝️ will auto reach us. You can also message us directly on WhatsApp: or Email.",
+  links: [
+    {
+      label: "WhatsApp",
+      url: "https://wa.me/237690533474"
+    },
+    {
+      label: "Email",
+      url: "mailto:pathfinderlabs1@gmail.com"
+    }
+  ],
+  keywords: ["contact", "email", "call", "reach"]
+},
 
+{
+  id: 23,
+  q: "Where are you located?",
+  a: "We are an LLC in Houston, Texas but we mostly operate remotely with over 50 highly qualified agents worldwide. You can get directions to our office using the link below.",
+  keywords: ["office", "located", "operation", "location", "headquarters"],
+  links: [
+    {
+      label: "Get Directions",
+      url: "https://www.google.com/maps/dir/?api=1&destination=Houston+TX+77002"
+    }
+  ]
+}
   ],
 
   ownerEmail: "demo@elitefitnesshouston.com",
@@ -496,8 +654,35 @@ export const businesses = {
     { id: 18, q: "Are ingredients locally sourced?", a: "We prioritize fresh local suppliers.", keywords: ["ingredients","local","suppliers"] },
     { id: 19, q: "Is live music hosted?", a: "Live music events are scheduled monthly.", keywords: ["livemusic","entertainment","band"] },
     { id: 20, q: "How do I place an order?", a: "You can order directly through this assistant.", keywords: ["order","purchase","checkout"] },
-        { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your order.", keywords: ["Price","Fee","cost"] }
+    { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your order.", keywords: ["Price","Fee","cost"] },
+{  id: 22,
+  q: "How can I contact you?",
+  a: "Using the 'Book Now' above ☝️ will auto reach us. You can also message us directly on WhatsApp: or Email.",
+  links: [
+    {
+      label: "WhatsApp",
+      url: "https://wa.me/237690533474"
+    },
+    {
+      label: "Email",
+      url: "mailto:pathfinderlabs1@gmail.com"
+    }
+  ],
+  keywords: ["contact", "email", "call", "reach"]
+},
 
+{
+  id: 23,
+  q: "Where are you located?",
+  a: "We are an LLC in Houston, Texas but we mostly operate remotely with over 50 highly qualified agents worldwide. You can get directions to our restaurant using the link below.",
+  keywords: ["office", "located", "operation", "location", "headquarters"],
+  links: [
+    {
+      label: "Get Directions",
+      url: "https://www.google.com/maps/dir/?api=1&destination=Houston+TX+77002"
+    }
+  ]
+}
   ],
 
   ownerEmail: "demo@texasgrillhouse.com",
@@ -540,7 +725,36 @@ export const businesses = {
     { id: 17, q: "Are pets safe?", a: "We use pet-safe cleaning solutions.", keywords: ["pets","animals","safe"] },
     { id: 18, q: "Do you disinfect?", a: "Yes, disinfecting services meet health standards.", keywords: ["disinfect","sanitize","germs"] },
     { id: 19, q: "Can I customize tasks?", a: "Custom checklists are available.", keywords: ["custom","checklist","tasks"] },
-    { id: 20, q: "How do I book?", a: "You can request cleaning directly here.", keywords: ["book","request","schedule"] }
+    { id: 20, q: "How do I book?", a: "You can request cleaning directly here.", keywords: ["book","request","schedule"] },
+    { id: 21, q: "How much do you charge?", a: "Our Prices range from $300 depending on your order.", keywords: ["Price","Fee","cost"] },
+{  id: 22,
+  q: "How can I contact you?",
+  a: "Using the 'Book Now' above ☝️ will auto reach us. You can also message us directly on WhatsApp: or Email.",
+  links: [
+    {
+      label: "WhatsApp",
+      url: "https://wa.me/237690533474"
+    },
+    {
+      label: "Email",
+      url: "mailto:pathfinderlabs1@gmail.com"
+    }
+  ],
+  keywords: ["contact", "email", "call", "reach"]
+},
+
+{
+  id: 23,
+  q: "Where are you located?",
+  a: "We are an LLC in Houston, Texas but we mostly operate remotely with over 50 highly qualified agents worldwide. You can get directions to our office using the link below.",
+  keywords: ["office", "located", "operation", "location", "headquarters"],
+  links: [
+    {
+      label: "Get Directions",
+      url: "https://www.google.com/maps/dir/?api=1&destination=Houston+TX+77002"
+    }
+  ]
+}
   ],
 
   ownerEmail: "demo@sparklecleantx.com",

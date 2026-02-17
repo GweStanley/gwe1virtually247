@@ -12,15 +12,69 @@ function AgentContent() {
   // Ads per business
   const ads = {
     'gs-pathfinder-labs': [
+      '👨🏻‍💻 Powered by GS Pathfinder',
       '🚀 Launch your startup with GS Pathfinder Labs!',
-      '💻 Custom Web Development & UI/UX Solutions.',
+      '💻 Custom Web Development & UI/UX Solutions. And Ai Agents like this one',
+       '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
       '📊 Agile project management for your ideas.',
     ],
     'acme-plumbing': [
+     '👨🏻‍💻 Powered by GS Pathfinder',
       '💧 Emergency plumbing? Call us now!',
       '🛁 Bathroom renovation specials this month!',
       '🚰 Leak fixing guaranteed within 3 hours.',
     ],
+        'global-travel-texas': [
+      '👨🏻‍💻 Powered by GS Pathfinder',
+      '🚀 Launch your startup with GS Pathfinder Labs!',
+      '💻 Custom Web Development & UI/UX Solutions. ',
+      '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📊 Agile project management for your ideas.',
+    ],
+
+        'texas-smile-clinic': [
+       '👨🏻‍💻 Powered by GS Pathfinder',
+      '🚀 Launch your startup with GS Pathfinder Labs!',
+      '💻 Custom Web Development & UI/UX Solutions. And Ai Agents like this one',
+      '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📊 Agile project management for your ideas.',
+    ],
+    'texas-immigration-law': [
+      '👨🏻‍💻 Powered by GS Pathfinder',
+      '🚀 Launch your startup with GS Pathfinder Labs!',
+      '💻 Custom Web Development & UI/UX Solutions. And Ai Agents like this one',
+       '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📊 Agile project management for your ideas.',
+    ],
+    'elite-fitness-houston': [
+      '👨🏻‍💻 Powered by GS Pathfinder',
+      '🚀 Launch your startup with GS Pathfinder Labs!',
+      '💻 Custom Web Development & UI/UX Solutions. And Ai Agents like this one',      '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📊 Agile project management for your ideas.',
+    ],
+    'texas-grill-house': [
+     '👨🏻‍💻 Powered by GS Pathfinder',
+      '🚀 Launch your startup with GS Pathfinder Labs!',
+      '💻 Custom Web Development & UI/UX Solutions. And Ai Agents like this one',
+      '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📊 Agile project management for your ideas.',
+    ],
+    'sparkle-clean-texas': [
+     '👨🏻‍💻 Powered by GS Pathfinder',
+      '🚀 Launch your startup with GS Pathfinder Labs!',
+      '💻 Custom Web Development & UI/UX Solutions. And Ai Agents like this one',
+      '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📊 Agile project management for your ideas.',
+    ],
+    'lone-star-realty': [
+      '👨🏻‍💻 Powered by GS Pathfinder',
+      '🚀 Launch your startup with GS Pathfinder Labs!',
+      '💻 Custom Web Development & UI/UX Solutions. And Ai Agents like this one',
+      '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📊 Agile project management for your ideas.',
+    ],
+
   };
 
   const currentAds = ads[site] || [];
@@ -43,7 +97,7 @@ function AgentContent() {
             <div style={{
               overflow: 'hidden',
               borderRadius: 8,
-              background: 'rgba(88, 152, 231, 0.2)',
+              background: 'rgba(40, 224, 64, 0.89)',
               padding: '4px 0',
               fontSize: 14,
               color: '#f9f1f1',
@@ -53,7 +107,7 @@ function AgentContent() {
               <div style={{
                 display: 'inline-block',
                 whiteSpace: 'nowrap',
-                animation: 'scroll 20s linear infinite',
+                animation: 'scroll 50s linear infinite',
               }}>
                 {currentAds.map((ad, i) => (
                   <span key={i} style={{ padding: '0 50px' }}>{ad}</span>
