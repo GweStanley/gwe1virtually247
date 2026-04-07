@@ -761,6 +761,106 @@ export const businesses = {
 },
 
 
+"ipekosol": {
+  name: "iPekoSol International",
+  tagline: "Smart IT & Renewable Energy Solutions",
+  location: "Cameroon & Germany",
+  hours: "Mon–Fri · 8am–5pm",
+  themeColor: "#0ea5e9",
+  avatar: "⚡",
+
+  services: [
+    "Solar Energy Installation",
+    "Hybrid & Off-Grid Power Systems",
+    "IT Infrastructure & Networking",
+    "Business Process Automation",
+    "Web & Mobile App Development",
+    "Cloud Backup & Data Management",
+    "CCTV & Smart Surveillance Systems",
+    "Technical Support & Maintenance"
+  ],
+
+  faqs: [
+    { id: 1, q: "What does iPekoSol specialize in?", a: "We provide integrated IT and renewable energy solutions for businesses and communities.", keywords: ["services","specialize","offer","solutions"] },
+
+    { id: 2, q: "Do you install solar systems?", a: "Yes, we design and install solar, hybrid, and off-grid energy systems.", keywords: ["solar","energy","installation","power"] },
+
+    { id: 3, q: "Do you offer IT services?", a: "Yes, we provide networking, cloud systems, automation, and technical support.", keywords: ["IT","network","support","cloud"] },
+
+    { id: 4, q: "Can you build custom software?", a: "Yes, we develop tailored web and mobile applications for businesses.", keywords: ["software","app","development","custom"] },
+
+    { id: 5, q: "Do you support businesses?", a: "Yes, we provide IT infrastructure and automation solutions for organizations.", keywords: ["business","enterprise","organization","company"] },
+
+    { id: 6, q: "Do you provide maintenance services?", a: "Yes, we offer ongoing technical support and system maintenance.", keywords: ["maintenance","support","repair","service"] },
+
+    { id: 7, q: "What industries do you serve?", a: "We serve SMEs, institutions, and community infrastructure projects.", keywords: ["industries","clients","sectors","customers"] },
+
+    { id: 8, q: "Do you offer smart city solutions?", a: "Yes, we build integrated systems for smart infrastructure and digital transformation.", keywords: ["smart","city","infrastructure","digital"] },
+
+    { id: 9, q: "Can you automate workflows?", a: "Yes, we design automation systems to improve efficiency and reduce manual processes.", keywords: ["automation","workflow","efficiency","process"] },
+
+    { id: 10, q: "Do you install CCTV systems?", a: "Yes, we install surveillance and security monitoring systems.", keywords: ["cctv","security","camera","monitoring"] },
+
+    { id: 11, q: "Do you provide cloud solutions?", a: "Yes, we offer cloud storage, backups, and remote system management.", keywords: ["cloud","backup","storage","remote"] },
+
+    { id: 12, q: "Do you work internationally?", a: "Yes, we operate in Cameroon and collaborate with partners in Germany.", keywords: ["international","global","countries","location"] },
+
+    { id: 13, q: "Can you handle large projects?", a: "Yes, we manage both small-scale and large infrastructure projects.", keywords: ["projects","large","scale","capacity"] },
+
+    { id: 14, q: "Do you provide consultations?", a: "Yes, we offer expert consultation for IT and energy solutions.", keywords: ["consult","advice","assessment","planning"] },
+
+    { id: 15, q: "Do you offer customized solutions?", a: "Yes, all solutions are tailored to client needs and project requirements.", keywords: ["custom","tailored","specific","needs"] },
+
+    { id: 16, q: "What makes iPekoSol unique?", a: "We combine IT systems with renewable energy to deliver complete smart solutions.", keywords: ["unique","difference","advantage","why"] },
+
+    { id: 17, q: "Do you support remote systems?", a: "Yes, we provide remote monitoring and management for deployed systems.", keywords: ["remote","monitoring","access","control"] },
+
+    { id: 18, q: "How long do projects take?", a: "Project timelines depend on scope, complexity, and client requirements.", keywords: ["time","duration","timeline","delivery"] },
+
+    { id: 19, q: "Do you offer training?", a: "Yes, we train clients and staff on system usage and maintenance.", keywords: ["training","support","learning","users"] },
+
+    { id: 20, q: "How do I get started?", a: "You can request a consultation or project assessment directly here.", keywords: ["start","request","begin","process"] },
+
+    { id: 21, q: "How much do your services cost?", a: "Pricing varies depending on project scope and requirements. Contact us for a quote.", keywords: ["price","cost","budget","fee"] },
+
+    {
+      id: 22,
+      q: "How can I contact iPekoSol?",
+      a: "You can reach us via our website, email, or WhatsApp for inquiries and project discussions.",
+      links: [
+        {
+          label: "Website",
+          url: "https://ipekosol.com"
+        },
+           {
+      label: "WhatsApp",
+      url: "https://wa.me/237680650195"
+    },
+        {
+          label: "Email",
+          url: "mailto:info@ipekosol.com"
+        }
+      ],
+      keywords: ["contact","email","reach","call"]
+    },
+
+    {
+      id: 23,
+      q: "Where are you located?",
+      a: "We operate in Cameroon with international collaboration in Germany. CMR= iti garage, Rue Lycée Bilingue Yaoundé Essos. Germany = Merowingerstr. 37A, 91301 Forchheim",
+      keywords: ["location","office","address","where"],
+      links: [
+        {
+          label: "View Location",
+          url: "https://www.google.com/maps/search/?api=1&query=iPekoSol+Cameroon"
+        }
+      ]
+    }
+  ],
+
+  ownerEmail: "info@ipekosol.com",
+},
+
   default: {
     name: "Default Business",
     services: [],
