@@ -75,6 +75,15 @@ function AgentContent() {
       '📊 Agile project management for your ideas.',
     ],
 
+        'ipekosol': [
+      '👨🏻‍💻 Powered by GS Pathfinder',
+      '🚀 Launch your startup with GS Pathfinder Labs!',
+      '💻 Custom Web Development & UI/UX Solutions. And Ai Agents like this one',
+      '📧 Email us at : pathfinderlabs1@gmail.com, To get Ai Agents like this one',
+      '📊 Agile project management for your ideas.',
+    ],
+
+
   };
 
   const currentAds = ads[site] || [];

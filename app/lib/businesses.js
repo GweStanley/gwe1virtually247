@@ -762,7 +762,7 @@ export const businesses = {
 
 
 "ipekosol": {
-  name: "iPekoSol International",
+  name: "iPekoSol",
   tagline: "Smart IT & Renewable Energy Solutions",
   location: "Cameroon & Germany",
   hours: "Mon–Fri · 8am–5pm",
@@ -821,10 +821,11 @@ export const businesses = {
 
     { id: 20, q: "How do I get started?", a: "You can request a consultation or project assessment directly here.", keywords: ["start","request","begin","process"] },
 
-    { id: 21, q: "How much do your services cost?", a: "Pricing varies depending on project scope and requirements. Contact us for a quote.", keywords: ["price","cost","budget","fee"] },
+    { id: 21, q: "How much do your services cost?", a: "Pricing varies depending on project scope and requirements. Contact us for a quote. Or book a service Above ", keywords: ["price","cost","budget","fee"] },
+    { id: 22, q: "How do I book a service?", a: "Book a service here Above ☝️", keywords: ["book","Booking","Appointment",] },
 
     {
-      id: 22,
+      id: 23,
       q: "How can I contact iPekoSol?",
       a: "You can reach us via our website, email, or WhatsApp for inquiries and project discussions.",
       links: [
@@ -845,7 +846,7 @@ export const businesses = {
     },
 
     {
-      id: 23,
+      id: 24,
       q: "Where are you located?",
       a: "We operate in Cameroon with international collaboration in Germany. CMR= iti garage, Rue Lycée Bilingue Yaoundé Essos. Germany = Merowingerstr. 37A, 91301 Forchheim",
       keywords: ["location","office","address","where"],
