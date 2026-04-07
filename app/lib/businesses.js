@@ -765,8 +765,8 @@ export const businesses = {
   name: "iPekoSol",
   tagline: "Smart IT & Renewable Energy Solutions",
   location: "Cameroon & Germany",
-  hours: "Mon–Fri · 8am–5pm",
-  themeColor: "#0ea5e9",
+  hours: "Mon–Sat · 9am–7pm",
+  themeColor: "#0ee969",
   avatar: "⚡",
 
   services: [
